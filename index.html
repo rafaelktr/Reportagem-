@@ -60,52 +60,60 @@ O presidente do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebr
     </section>
   </main>
 
-<head>
-  <!-- ... outros elementos do cabeçalho ... -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-
-<section id="dados">
-  <h2>informações das enchentes</h2>
-  <canvas id="meuGrafico"></canvas>
-</section>
-
-<script>
-  var dados = {
-    labels: ['Pessoas Afetadas', 'Pessoas desalojadas', 'Municipois afetados'],
-    datasets: [{
-      label: 'Enchentes em Santa Catarina',
-      data: [457000,61000,135 ], 
-      backgroundColor: [
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)'
-      ],
-      borderColor: [
-        'rgba(255, 99, 132, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)'
-      ],
-      borderWidth: 1
-    }]
-  };
-
-  // Configurações do gráfico
-  var config = {
-    type: 'bar',
-    data: dados,
-    options: {
-      scales: {
-        y: {
-          beginAtZero: true
+  <head>
+    <!-- ... outros elementos do cabeçalho ... -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      #meuGrafico {
+        display: block;
+        margin: 0 auto; /* Isso centralizará o gráfico na tela */
+        max-width: 80%; /* Isso limitará o tamanho máximo do gráfico a 80% da largura da tela */
+      }
+    </style>
+  </head>
+  
+  <section id="dados">
+    <h2>informações das enchentes</h2>
+    <canvas id="meuGrafico"></canvas>
+  </section>
+  
+  <script>
+    var dados = {
+      labels: ['Pessoas Afetadas', 'Pessoas desalojadas', 'Municípios afetados'],
+      datasets: [{
+        label: 'Enchentes em Santa Catarina',
+        data: [457000, 61000, 135],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
+        ],
+        borderColor: [
+          'rgba(255, 99, 132, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
+        ],
+        borderWidth: 1
+      }]
+    };
+  
+    // Configurações do gráfico
+    var config = {
+      type: 'bar',
+      data: dados,
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
         }
       }
-    }
-  };
-
-  // Criação do gráfico
-  var meuGrafico = new Chart(document.getElementById('meuGrafico'), config);
-</script>
+    };
+  
+    // Criação do gráfico
+    var meuGrafico = new Chart(document.getElementById('meuGrafico'), config);
+  </script>
+  
 
 <footer>
   <p>&copy; 2023 Kostrzewicz. T. Rafael.</p>
