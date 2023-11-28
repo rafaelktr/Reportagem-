@@ -66,8 +66,9 @@ O presidente do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebr
     <style>
       #meuGrafico {
         display: block;
-        margin: 0 auto; 
-        max-width: 40%; 
+        margin: 0 auto; /* Isso centralizará o gráfico na tela */
+        width: 80%; /* Largura do gráfico */
+        height: 400px; /* Altura do gráfico */
       }
     </style>
   </head>
@@ -113,6 +114,7 @@ O presidente do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebr
     // Criação do gráfico
     var meuGrafico = new Chart(document.getElementById('meuGrafico'), config);
   </script>
+  
   
 
 <footer>
