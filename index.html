@@ -61,21 +61,20 @@ O presidente do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebr
   </main>
 
   <head>
-    <!-- ... outros elementos do cabeçalho ... -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-      #meuGrafico {
+      #Grafico {
         display: block;
-        margin: 0 auto; /* Isso centralizará o gráfico na tela */
-        width: 50%; /* Largura do gráfico */
-        height: 200px; /* Altura do gráfico */
+        margin: 0 auto;
+        width: 50%; 
+        height: 200px; 
       }
     </style>
   </head>
   
   <section id="dados">
     <h2>informações das enchentes</h2>
-    <canvas id="meuGrafico"></canvas>
+    <canvas id="Grafico"></canvas>
   </section>
   
   <script>
@@ -98,7 +97,6 @@ O presidente do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebr
       }]
     };
   
-    // Configurações do gráfico
     var config = {
       type: 'bar',
       data: dados,
@@ -110,11 +108,9 @@ O presidente do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebr
         }
       }
     };
-  
-    // Criação do gráfico
-    var meuGrafico = new Chart(document.getElementById('meuGrafico'), config);
+
+    var Grafico = new Chart(document.getElementById('Grafico'), config);
   </script>
-  
   
 
 <footer>
