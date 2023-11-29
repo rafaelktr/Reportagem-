@@ -1,3 +1,8 @@
+body {
+  background-image: url("IMG/Capa.jpg");
+  background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+}
+
 /* Estilo para o header */
 header {
     background-color: #f2f2f2;
