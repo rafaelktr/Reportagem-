@@ -31,6 +31,6 @@ header {
   }
   
   body {
-    background-image: url('caminho/para/sua/imagem.jpg');
+    background-image: url("IMG/Capa.jpg");
     background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
   }
