@@ -72,7 +72,7 @@ body {
 
 .new-section {
   position: absolute;
-  top: 50%;
+  top: 70%;
   right: 0;
   width: 25%;
   transform: translateY(-50%);
