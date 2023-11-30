@@ -16,3 +16,9 @@ body {
   color: white; /* Altera a cor do texto para branco */
   background-color: black; /* Altera a cor de fundo para preto */
 }
+
+.black-background {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
