@@ -8,8 +8,7 @@ body, html {
   display: flex;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
-  position: relative; /* Adiciona uma posição relativa ao contêiner */
+  overflow: hidden; /* Esconde o conteúdo extra que possa vazar */
 }
 
 .background-image {
@@ -18,20 +17,13 @@ body, html {
   background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho da sua imagem */
   background-size: cover;
   background-position: center;
-  position: absolute; /* Adiciona uma posição absoluta para cobrir todo o contêiner */
-  top: 0; /* Posiciona a partir do topo do contêiner */
-  left: 0; /* Posiciona a partir da esquerda do contêiner */
 }
 
 .black-overlay {
   width: 50%;
   height: 100%;
   background-color: black;
-  position: absolute; /* Adiciona uma posição absoluta para cobrir todo o contêiner */
-  top: 0; /* Posiciona a partir do topo do contêiner */
-  right: 0; /* Posiciona a partir da direita do contêiner */
 }
-
 /* Estilo para a div */
 .minha-div {
   /* Estilos adicionais para a div, se necessário */
