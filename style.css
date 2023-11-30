@@ -73,19 +73,19 @@ body {
 .new-section {
   position: absolute;
   top: 70%;
-  right: 0;
-  width: 50%;
+  right: 5;
+  width: 40%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .new-section h2 {
-  color: #333;
+  color: #ffffff;
 }
 
 .new-section p {
-  color: #555;
+  color: #ffffff;
 }
