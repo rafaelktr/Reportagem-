@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho correto da sua imagem */
-  background-position: 50%;
+  background-position: right: 50%;
 }
 
 /* Estilo para a div */
