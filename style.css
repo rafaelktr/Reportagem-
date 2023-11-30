@@ -94,6 +94,7 @@ body {
 /*final do site*/
 .footer {
   background-color: #000000;
+  background-image: url('IMG/Capa.jpg'); 
   color: white;
   text-align: left;
   padding: 0,5px 0;
