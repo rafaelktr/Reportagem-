@@ -71,10 +71,3 @@ body {
   color: #555; /* Cor do texto */
 }
 
-.additional-text {
-  margin-top: 20px; /* Define o espaço entre o balão e o novo texto */
-}
-
-.additional-text p {
-  color: #fff; /* Define a cor do texto */
-}
