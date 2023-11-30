@@ -1,5 +1,12 @@
 /* Estilo para o corpo da página */
 body 
+
+.container {
+  display: flex;
+  width: 100vw; /* largura total da tela */
+  height: 100vh; /* altura total da tela */
+}
+
 .background-image {
   width: 50%;
   height: 100%;
