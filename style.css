@@ -1,13 +1,12 @@
 /* Estilo para o corpo da página */
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url('IMG/Capa.jpg');
-    background-size: cover;
-  }
-  
-  /* Estilo para a div */
-  .minha-div {
-    /* Estilos adicionais para a div, se necessário */
-  }
-  
+  margin: 0;
+  padding: 0;
+  background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho correto da sua imagem */
+  background-size: cover;
+}
+
+/* Estilo para a div */
+.minha-div {
+  /* Estilos adicionais para a div, se necessário */
+}
