@@ -54,3 +54,24 @@ body {
   color: white; /* Altera a cor do texto para branco */
   background-color: black; /* Altera a cor de fundo para preto */
 }
+
+/* ... (código existente) ... */
+
+.additional-content {
+  position: absolute;
+  top: 30%; /* Define a distância do topo */
+  right: 5%; /* Define a distância da direita */
+  width: 40%; /* Define a largura do conteúdo adicional */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
+}
+
+.additional-content h2 {
+  color: #333; /* Cor do título */
+}
+
+.additional-content p {
+  color: #555; /* Cor do texto */
+}
