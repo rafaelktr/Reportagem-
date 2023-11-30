@@ -1,7 +1,7 @@
 /* Estilo para o corpo da página */
 body {
   margin: 500;
-  padding: 0;
+  padding: 100;
   background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho correto da sua imagem */
   background-size: cover;
 }
