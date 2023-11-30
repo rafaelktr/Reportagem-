@@ -76,21 +76,3 @@ body {
   color: #555; /* Cor do texto */
 }
 
-.additional-content {
-  position: absolute;
-  top: 30%; /* Define a distância do topo */
-  right: 5%; /* Define a distância da direita */
-  width: 40%; /* Define a largura do conteúdo adicional */
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo */
-  border-radius: 8px; /* Adiciona bordas arredondadas */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
-}
-
-.additional-content h2 {
-  color: #ffffff; /* Cor do título */
-}
-
-.additional-content p {
-  color: #ffffff; /* Cor do texto */
-}
