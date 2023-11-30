@@ -41,9 +41,9 @@ body, html {
 
 h1 {
   color: white;
+  text-align: right; /* Alinha o texto à direita */
   font-size: 2em; /* Define o tamanho da fonte do título */
 }
-
 /* Estilo para a div */
 .minha-div {
   /* Estilos adicionais para a div, se necessário */
