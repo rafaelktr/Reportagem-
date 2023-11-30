@@ -1,18 +1,19 @@
-/* Estilo para o corpo da página */
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho correto da sua imagem */
-  background-position: right: 50%;
+.container {
+  display: flex;
+  width: 100vw; /* largura total da tela */
+  height: 100vh; /* altura total da tela */
 }
 
-/* Estilo para a div */
-.minha-div {
-  /* Estilos adicionais para a div, se necessário */
+.background-image {
+  width: 50%;
+  height: 100%;
+  background-image: url('IMG/Capa.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-/* Estilo para o corpo da página */
-body {
-  color: white; /* Altera a cor do texto para branco */
-  background-color: black; /* Altera a cor de fundo para preto */
+.black-background {
+  width: 50%;
+  height: 100%;
+  background-color: black;
 }
