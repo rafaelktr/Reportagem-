@@ -33,7 +33,7 @@ body, html {
 
 .minha-div {
   position: absolute;
-  top: 10%; /* Define a distância de 10% da parte superior */
+  top: 5%; /* Define a distância de 10% da parte superior */
   left: 50%; /* Posiciona no centro horizontal */
   transform: translate(-50%, 0); /* Centraliza horizontalmente */
   text-align: center; /* Alinha o texto ao centro */
