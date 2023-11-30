@@ -14,7 +14,7 @@ body, html {
 .background-image {
   width: 50%;
   height: 100%;
-  background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-image: url('IMG/Capa.jpg'); 
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -33,41 +33,38 @@ body, html {
 
 .minha-div {
   position: absolute;
-  top: 5%; /* Define a distância de 10% da parte superior */
-  left: 50%; /* Posiciona no centro horizontal */
-  transform: translate(-50%, 0); /* Centraliza horizontalmente */
-  text-align: center; /* Alinha o texto ao centro */
+  top: 5%; 
+  left: 50%; 
+  transform: translate(-50%, 0); 
+  text-align: center;
 }
 
 h1 {
   color: white;
-  font-size: 2em; /* Define o tamanho da fonte do título */
+  font-size: 2em; 
 }
 
-/* Estilo para o corpo da página */
 body {
-  color: white; /* Altera a cor do texto para branco */
-  background-color: black; /* Altera a cor de fundo para preto */
+  color: white; 
+  background-color: black; 
 }
-
-/* ... (código existente) ... */
 
 .additional-content {
   position: absolute;
-  top: 30%; /* Define a distância do topo */
-  right: 5%; /* Define a distância da direita */
-  width: 40%; /* Define a largura do conteúdo adicional */
+  top: 30%; 
+  right: 5%; 
+  width: 40%; 
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo */
-  border-radius: 8px; /* Adiciona bordas arredondadas */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 .additional-content h2 {
-  color: #333; /* Cor do título */
+  color: #333; 
 }
 
 .additional-content p {
-  color: #555; /* Cor do texto */
+  color: #555; 
 }
 
