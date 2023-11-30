@@ -1,18 +1,12 @@
 /* Estilo para o corpo da página */
-body 
-
-.container {
-  display: flex;
-  width: 100vw; /* largura total da tela */
-  height: 100vh; /* altura total da tela */
-}
-
-.background-image {
-  width: 50%;
-  height: 100%;
-  background-image: url("IMG/Capa.jpg");
-  background-size: cover;
-  background-position: center;
+body {
+  margin: 0;
+  padding: 0;
+  /* Cria um gradiente linear que cobre metade da tela com a imagem e a outra metade preta */
+  background-image: linear-gradient(to right, url('IMG/Capa.jpg') 50%, black 50%);
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  height: 100vh; /* Define a altura para ocupar toda a altura da tela */
 }
 
 
@@ -25,10 +19,4 @@ body
 body {
   color: white; /* Altera a cor do texto para branco */
   background-color: black; /* Altera a cor de fundo para preto */
-}
-
-.black-background {
-  width: 50%;
-  height: 100%;
-  background-color: black;
 }
