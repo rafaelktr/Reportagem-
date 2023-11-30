@@ -5,25 +5,45 @@ body, html {
 }
 
 .container {
-  display: flex;
+  position: relative;
   width: 100%;
   height: 100vh;
-  overflow: hidden; /* Esconde o conteúdo extra que possa vazar */
+  overflow: hidden;
 }
 
 .background-image {
-  width: 70%;
+  width: 50%;
   height: 100%;
   background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho da sua imagem */
   background-size: cover;
   background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .black-overlay {
-  width: 30%;
+  width: 50%;
   height: 100%;
   background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
+
+.minha-div {
+  position: absolute;
+  top: 10%; /* Define a distância de 10% da parte superior */
+  left: 50%; /* Posiciona no centro horizontal */
+  transform: translate(-50%, 0); /* Centraliza horizontalmente */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+h1 {
+  color: white;
+  font-size: 2em; /* Define o tamanho da fonte do título */
+}
+
 /* Estilo para a div */
 .minha-div {
   /* Estilos adicionais para a div, se necessário */
