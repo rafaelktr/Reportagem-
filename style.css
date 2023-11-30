@@ -98,3 +98,16 @@ body {
   text-align: center;
   padding: 0,5px 0;
 }
+
+.footer p {
+  margin: 0;
+}
+
+.footer span {
+  padding: 0 10px;
+  border-right: 1px solid white;
+}
+
+.footer span:last-child {
+  border-right: none;
+}
