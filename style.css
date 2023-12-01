@@ -11,6 +11,10 @@ body, html {
   overflow: hidden;
 }
 
+.minha-div {
+  font-size: 24px; /* Altere o tamanho conforme necessário */
+}
+
 .background-image {
   width: 50%;
   height: 100%;
