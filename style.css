@@ -107,6 +107,15 @@ body {
   transform: translateY(220%); /* Ajuste para centralizar verticalmente */
 }
 
+.nova-imagem-fundo {
+  position: absolute;
+  top: 300px; /* Altura a partir do topo */
+  right: 0; /* Alinhamento à direita */
+  width: 300px; /* Largura da nova imagem de fundo */
+  height: 200px; /* Altura da nova imagem de fundo */
+  background-image: url('IMG/Capa.jpg');
+  background-size: cover; /* Ajuste do tamanho da imagem */
+}
 
 /*final do site*/
 .footer {
