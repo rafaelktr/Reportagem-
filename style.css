@@ -107,13 +107,6 @@ body {
   transform: translateY(220%); /* Ajuste para centralizar verticalmente */
 }
 
-<div class="novo-layout">
-  <div class="conteudo-direita">
-    <h2>Novo Conteúdo à Direita</h2>
-    <p>Este é o novo conteúdo que aparecerá à direita do conteúdo existente.</p>
-    <!-- ... Adicione mais conteúdo conforme necessário ... -->
-  </div>
-</div>
 
 /*final do site*/
 .footer {
