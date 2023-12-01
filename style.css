@@ -110,7 +110,7 @@ body {
 .nova-imagem-fundo {
   position: absolute;
   top: 300px; /* Altura a partir do topo */
-  right: 0; /* Alinhamento à direita */
+  right: 18; /* Alinhamento à direita */
   width: 300px; /* Largura da nova imagem de fundo */
   height: 200px; /* Altura da nova imagem de fundo */
   background-image: url('IMG/Capa.jpg');
