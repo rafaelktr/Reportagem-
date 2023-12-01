@@ -90,6 +90,18 @@ body {
   color: #ffffff;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.imagem-secao {
+  height: 400px; /* Altura desejada para a div */
+  position: absolute;
+  top: 50%; /* Posicionamento vertical no meio */
+  right: 0; /* Alinhamento à direita */
+  transform: translateY(-50%); /* Ajuste para centralizar verticalmente */
+}
 
 /*final do site*/
 .footer {
