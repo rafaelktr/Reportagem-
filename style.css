@@ -51,7 +51,7 @@ body {
 
 .additional-content {
   position: absolute;
-  top: 5%; 
+  top: 15%; 
   right: 5%; 
   width: 40%; 
   padding: 20px;
@@ -72,7 +72,7 @@ body {
 
 .new-section {
   position: absolute;
-  top: 15%;
+  top: 35%;
   right: 5;
   width: 40%;
   transform: translateY(0%);
