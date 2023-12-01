@@ -104,7 +104,7 @@ body {
   position: absolute;
   top: 50%; /* Posicionamento vertical no meio */
   right: 19%; /* Alinhamento à direita */
-  transform: translateY(180%); /* Ajuste para centralizar verticalmente */
+  transform: translateY(220%); /* Ajuste para centralizar verticalmente */
 }
 
 /*final do site*/
