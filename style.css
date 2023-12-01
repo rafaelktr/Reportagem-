@@ -99,7 +99,7 @@ body {
   height: 400px; /* Altura desejada para a div */
   position: absolute;
   top: 80%; /* Posicionamento vertical no meio */
-  right: 10; /* Alinhamento à direita */
+  right: -10; /* Alinhamento à direita */
   transform: translateY(-50%); /* Ajuste para centralizar verticalmente */
 }
 
