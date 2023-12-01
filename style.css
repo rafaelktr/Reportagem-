@@ -98,8 +98,8 @@ body {
 .imagem-secao {
   height: 400px; /* Altura desejada para a div */
   position: absolute;
-  top: 60%; /* Posicionamento vertical no meio */
-  right: 0; /* Alinhamento à direita */
+  top: 80%; /* Posicionamento vertical no meio */
+  right: 10; /* Alinhamento à direita */
   transform: translateY(-50%); /* Ajuste para centralizar verticalmente */
 }
 
