@@ -117,7 +117,7 @@ body {
 
 .nova-imagem-fundo {
   position: fixed;
-  top: 0;
+  top: 50%;
   left: 0;
   width: 100vw; /* Largura total da tela */
   height: 100vh; /* Altura total da tela */
