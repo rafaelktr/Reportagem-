@@ -99,6 +99,14 @@ body {
   padding: 0;
 }
 
+
+.conteudo-tela-cheia {
+  width: 100vw; /* Largura total da tela */
+  height: 100vh; /* Altura total da tela */
+  background-color: #f2f2f2; /* Cor de fundo (opcional) */
+  padding: 20px; /* Espaçamento interno (opcional) */
+}
+
 .imagem-secao {
   height: 400px; /* Altura desejada para a div */
   position: absolute;
@@ -107,15 +115,6 @@ body {
   transform: translateY(220%); /* Ajuste para centralizar verticalmente */
 }
 
-.nova-imagem-fundo {
-  position: absolute;
-  top: 1000px; /* Altura a partir do topo */
-  right: 10; /* Alinhamento à direita */
-  width: 300px; /* Largura da nova imagem de fundo */
-  height: 400px; /* Altura da nova imagem de fundo */
-  background-image: url('IMG/Capa.jpg');
-  background-size: cover; /* Ajuste do tamanho da imagem */
-}
 
 /*final do site*/
 .footer {
