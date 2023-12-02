@@ -103,7 +103,7 @@ body {
 .conteudo-tela-cheia {
   width: 100vw; /* Largura total da tela */
   height: 100vh; /* Altura total da tela */
-  background-color: #f2f2f2; /* Cor de fundo (opcional) */
+  background-color: #000000; /* Cor de fundo (opcional) */
   padding: 20px; /* Espaçamento interno (opcional) */
 }
 
