@@ -107,14 +107,6 @@ body {
   padding: 20px; /* Espaçamento interno (opcional) */
 }
 
-.imagem-secao {
-  height: 400px; /* Altura desejada para a div */
-  position: absolute;
-  top: 50%; /* Posicionamento vertical no meio */
-  right: 19%; /* Alinhamento à direita */
-  transform: translateY(220%); /* Ajuste para centralizar verticalmente */
-}
-
 .nova-imagem-fundo {
   position: fixed;
   top: 50%;
