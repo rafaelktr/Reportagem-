@@ -109,7 +109,7 @@ body {
 
 .nova-imagem-fundo {
   position: absolute;
-  top: 300px; /* Altura a partir do topo */
+  top: 1000px; /* Altura a partir do topo */
   right: 10; /* Alinhamento à direita */
   width: 300px; /* Largura da nova imagem de fundo */
   height: 400px; /* Altura da nova imagem de fundo */
