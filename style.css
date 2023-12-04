@@ -120,12 +120,13 @@ body {
 
 .additional-image {
   position: fixed;
-  bottom: -50px; /* Altere este valor para mover a imagem para baixo */
+  bottom: 0;
   right: 0;
-  width: 50%; /* Largura desejada para a imagem */
-  height: 50%; /* Altura desejada para a imagem */
-  background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho da sua imagem */
+  width: 50%;
+  height: 50%;
+  background-image: url('IMG/Capa.jpg');
   background-size: cover;
+  background-position: bottom right; /* Ajuste a posição da imagem se necessário */
   z-index: -1;
 }
 
