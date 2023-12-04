@@ -99,6 +99,27 @@ body {
   padding: 0;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.imagem {
+  width: 50%;
+  height: 100%;
+  background-image: url('IMG/Capa.jpg');
+  background-size: cover;
+  background-position: right;
+}
+
+
 /*final do site*/
 .footer {
   background-color: #000000;
