@@ -118,19 +118,6 @@ body {
   z-index: -1; /* Para posicionar atrás do conteúdo principal */
 }
 
-.additional-image {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  height: 50%;
-  background-image: url('IMG/Capa.jpg');
-  background-size: cover;
-  background-position: bottom right; /* Ajuste a posição da imagem se necessário */
-  z-index: -1;
-}
-
-
 /*final do site*/
 .footer {
   background-color: #000000;
