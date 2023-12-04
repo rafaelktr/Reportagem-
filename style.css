@@ -99,26 +99,6 @@ body {
   padding: 0;
 }
 
-
-.conteudo-tela-cheia {
-  width: 100vw; /* Largura total da tela */
-  height: 100vh; /* Altura total da tela */
-  background-color: #000000; /* Cor de fundo (opcional) */
-  padding: 20px; /* Espaçamento interno (opcional) */
-}
-
-.nova-imagem-fundo {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  width: 100vw; /* Largura total da tela */
-  height: 100vh; /* Altura total da tela */
-  background-image: url('IMG/Capa.jpg');
-  background-size: cover;
-  z-index: -1; /* Para posicionar atrás do conteúdo principal */
-}
-
-
 /*final do site*/
 .footer {
   background-color: #000000;
