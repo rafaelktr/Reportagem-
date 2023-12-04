@@ -99,17 +99,6 @@ body {
   padding: 0;
 }
 
-.additional-image {
-  position: fixed;
-  bottom: 50px; /* Altere este valor para mover a imagem para cima ou para baixo */
-  right: 0;
-  width: 50%; /* Largura desejada para a imagem */
-  height: 50%; /* Altura desejada para a imagem */
-  background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho da sua imagem */
-  background-size: cover;
-  z-index: -1;
-}
-
 
 .conteudo-tela-cheia {
   width: 100vw; /* Largura total da tela */
@@ -127,6 +116,17 @@ body {
   background-image: url('IMG/Capa.jpg');
   background-size: cover;
   z-index: -1; /* Para posicionar atrás do conteúdo principal */
+}
+
+.additional-image {
+  position: fixed;
+  bottom: -50px; /* Altere este valor para mover a imagem para baixo */
+  right: 0;
+  width: 50%; /* Largura desejada para a imagem */
+  height: 50%; /* Altura desejada para a imagem */
+  background-image: url('IMG/Capa.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  z-index: -1;
 }
 
 
