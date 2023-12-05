@@ -12,7 +12,7 @@ body, html {
 }
 
 .minha-div {
-  font-size: 17px; /* Altere o tamanho conforme necessário */
+  font-size: 17px; 
 }
 
 .background-image {
@@ -72,8 +72,6 @@ body {
   color: #ffffff; 
 }
 
-/* ... (seu estilo existente) ... */
-
 .new-section {
   position: absolute;
   top: 50%;
@@ -101,8 +99,8 @@ body {
 
 
 .imagem-pequena {
-  width: 100px; /* Defina a largura desejada */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 100px; 
+  height: auto; 
 }
 
 /*final do site*/
