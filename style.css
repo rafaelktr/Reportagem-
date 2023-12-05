@@ -114,6 +114,17 @@ body {
   max-width: 50%; /* Ajuste conforme necessário */
 }
 
+.segunda-imagem {
+  position: absolute;
+  top: 23%;
+  left: 60%; /* Ajuste a posição horizontal conforme necessário */
+  transform: translate(-50%, -50%);
+  width: 50%; /* Ajuste o tamanho conforme necessário */
+  max-height: 50vh;
+  max-width: 50%;
+  height: auto;
+}
+
 .conteudo-tela-cheia {
   /* Ajuste a posição do conteúdo conforme necessário */
   padding-top: 20px; /* Adicione espaço acima do conteúdo para acomodar a imagem */
