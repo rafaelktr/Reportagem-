@@ -97,37 +97,7 @@ body {
   display: inline-block;
 }
 
-.imagem-centralizada {
-  position: absolute;
-  top: 23%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
-  max-height: 50vh;
-  max-width: 50%;
-  height: auto;
-}
 
-
-.imagem-centralizada {
-  position: relative;
-  display: block;
-  left: -20%;
-  margin: 0 auto;
-  width: 25%; 
-  max-width: 50%; 
-}
-
-.segunda-imagem {
-  position: relative;
-  top: 23%;
-  left: 80%; 
-  transform: translate(-50%, -50%);
-  width: 25%; 
-  max-height: 50vh;
-  max-width: 30%;
-  height: auto;
-}
 
 /*final do site*/
 .footer {
