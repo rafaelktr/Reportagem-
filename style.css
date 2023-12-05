@@ -110,8 +110,8 @@ body {
   display: block;
   left: 25%;
   margin: 0 auto;
-  width: 50%; /* Ajuste conforme necessário */
-  max-width: 100%; /* Ajuste conforme necessário */
+  width: 25%; /* Ajuste conforme necessário */
+  max-width: 50%; /* Ajuste conforme necessário */
 }
 
 .conteudo-tela-cheia {
