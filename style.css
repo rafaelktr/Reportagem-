@@ -103,10 +103,18 @@ body {
   height: auto;
 }
 
+
+.imagem-centralizada {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 50%; /* Ajuste conforme necessário */
+  max-width: 100%; /* Ajuste conforme necessário */
+}
+
 .conteudo-tela-cheia {
   /* Ajuste a posição do conteúdo conforme necessário */
   padding-top: 20px; /* Adicione espaço acima do conteúdo para acomodar a imagem */
-
 
 /*final do site*/
 .footer {
