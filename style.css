@@ -104,6 +104,17 @@ body {
   height: auto;
 }
 
+
+.imagem-centralizada {
+  position: relative;
+  display: block;
+  left: -20%;
+  margin: 0 auto;
+  width: 25%; 
+  max-width: 50%; 
+}
+
+
 .footer {
   background-color: #000000;
   color: white;
