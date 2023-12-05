@@ -107,16 +107,6 @@ body {
   padding: 20px; /* Espaçamento interno (opcional) */
 }
 
-.nova-imagem-fundo {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  width: 100vw; /* Largura total da tela */
-  height: 100vh; /* Altura total da tela */
-  background-image: url("IMG/BotõesUCN.jpg");
-  background-size: cover;
-}
-
 /*final do site*/
 .footer {
   background-color: #000000;
