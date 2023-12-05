@@ -116,10 +116,10 @@ body {
 
 .segunda-imagem {
   position: relative;
-  top: 23%;
+  top: 33%;
   left: 60%; /* Ajuste a posição horizontal conforme necessário */
   transform: translate(-50%, -50%);
-  width: 45%; /* Ajuste o tamanho conforme necessário */
+  width: 50%; /* Ajuste o tamanho conforme necessário */
   max-height: 50vh;
   max-width: 50%;
   height: auto;
