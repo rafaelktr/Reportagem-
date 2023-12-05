@@ -93,10 +93,6 @@ body {
   padding: 0;
 }
 
-.imagem_game li{
-  display: ;
-}
-
 .imagem-centralizada {
   position: absolute;
   top: 23%;
@@ -118,7 +114,7 @@ body {
   max-width: 50%; 
 }
 
-/*final do site*/
+
 .footer {
   background-color: #000000;
   color: white;
