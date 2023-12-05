@@ -113,9 +113,8 @@ body {
   left: 0;
   width: 100vw; /* Largura total da tela */
   height: 100vh; /* Altura total da tela */
-  background-image: url('IMG/Capa.jpg');
+  background-image: url("IMG/BotõesUCN.jpg");
   background-size: cover;
-  z-index: -1; /* Para posicionar atrás do conteúdo principal */
 }
 
 /*final do site*/
