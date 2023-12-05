@@ -95,7 +95,7 @@ body {
 
 .imagem-centralizada {
   position: absolute;
-  top: 23%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
@@ -106,7 +106,7 @@ body {
 
 
 .imagem-centralizada {
-  position: relative;
+  position: center;
   display: block;
   left: 50%;
   margin: 0 auto;
