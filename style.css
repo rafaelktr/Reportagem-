@@ -46,7 +46,7 @@ h1 {
 
 body {
   color: white; 
-  background-color: black; 
+  background-color: black; /* Ajuste conforme necessário */
 }
 
 .additional-content {
@@ -125,7 +125,7 @@ body {
   height: auto;
 }
 
-.conteudo-tela-cheia {
+.conteudo-tela-cheia 
   padding-top: 20px; 
 
 /*final do site*/
