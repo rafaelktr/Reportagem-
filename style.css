@@ -115,8 +115,8 @@ body {
 }
 
 .segunda-imagem {
-  position: absolute;
-  top: 73%;
+  position: relative;
+  top: 23%;
   left: 60%; /* Ajuste a posição horizontal conforme necessário */
   transform: translate(-50%, -50%);
   width: 50%; /* Ajuste o tamanho conforme necessário */
