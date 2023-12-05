@@ -93,6 +93,10 @@ body {
   padding: 0;
 }
 
+.imagem_game li{
+  display: inline-block;
+}
+
 .imagem-centralizada {
   position: absolute;
   top: 23%;
