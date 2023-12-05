@@ -121,7 +121,7 @@ body {
   transform: translate(-50%, -50%);
   width: 25%; /* Ajuste o tamanho conforme necessário */
   max-height: 50vh;
-  max-width: 50%;
+  max-width: 30%;
   height: auto;
 }
 
