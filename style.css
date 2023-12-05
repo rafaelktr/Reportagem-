@@ -108,7 +108,7 @@ body {
 .imagem-centralizada {
   position: relative;
   display: block;
-  left: 30%;
+  left: 25%;
   margin: 0 auto;
   width: 50%; /* Ajuste conforme necessário */
   max-width: 100%; /* Ajuste conforme necessário */
