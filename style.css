@@ -94,7 +94,7 @@ body {
 }
 
 .imagem-centralizada {
-  position: relative;
+  position: absolute;
   top: 23%;
   left: 50%;
   transform: translate(-50%, -50%);
